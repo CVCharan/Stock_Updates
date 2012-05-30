@@ -1,0 +1,219 @@
+body {
+    background: none repeat scroll 0 0 #EDE8E2;
+    color: #414141;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 75%;
+    line-height: 1.6em;
+    margin: 0;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.header{
+	height: 125px;
+    padding: 0 0 0 18px;
+	width:auto;
+	position:relative;
+}
+
+.title{
+	color:#009193;
+	background:#F0F9F9;
+	position:absolute;
+	top:20px;
+	width:96%;
+	height:75%;
+	box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+.main{
+	max-width:960px;
+	height:auto;
+	font:14px Arial,Helvetica,sans-serif;
+	background:#FFF;
+	margin: 0 auto;
+	text-align:left;
+}
+
+#nse_container{
+	width: 600px;
+	height:300px;
+	text-align:center;
+	clear:both;
+}
+
+#ftse_container{
+	width: 600px;
+	height:300px;
+	text-align:center;
+	clear:both;
+}
+
+#NSE-last, #NSE-ch, #NSE-high, #NSE-low{
+	float: left;
+	margin-left:15px;
+	padding-top:21px;
+}
+
+#FTSE-last, #FTSE-ch, #FTSE-high, #FTSE-low{
+	float: left;
+	margin-left:15px;
+	padding-top:21px;
+}
+
+#change-nse, #high-nse, #low-nse{
+	float:left;
+	margin-left:15px;
+	padding-top:21px;
+}
+
+#change-ftse, #high-ftse, #low-ftse{
+	float:left;
+	margin-left:15px;
+	padding-top:21px;
+}
+
+.container{
+  width:auto;
+  height:auto;
+}
+
+.container  .left{
+  width:70%;
+  height:auto;
+  float:left;
+  padding: 0 18px;
+    
+}
+
+.left .left_container h2{
+	color:#009193;
+	margin-left:15px;
+	padding-top:0px;
+	float: left;
+}
+
+.left .left_container{
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+	min-height:330px;
+}
+
+.left .left_container .left_footer{
+	font-size: 0.9em;
+    padding: 3px 3px 3px 15px;
+    position: relative;
+	background-color: #FAFAF1;
+    border-color: #F3F4F4;
+}
+
+a {
+	color:#6C8C37;
+	text-decoration: none;
+}
+
+.over{
+	color:#009193 !important;
+}
+
+.container .right{
+	width:24%;
+	height:auto;
+	float: right;
+	padding: 0 21px 0 0;
+}
+
+.right_title{
+  	color:#009193;
+	background:#FAFAF1;
+	padding:4px 3px 4px 8px;
+	font-size:16px;
+	background:#FAFAF1;
+}
+
+/*.right .right_container{
+	margin:0px 0px 0 0;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+	color:#009193;	
+}*/
+
+.sub_category{
+	padding:3px 3px 3px 15px;
+}
+
+.left .left_container p{
+	margin-left:15px;
+	margin-right:15px
+}
+
+.title_tab{
+	font-size:16px;
+	position:absolute;
+	right:0;
+	bottom:0;
+	background:#A3C159;
+	padding:5px 20px;
+	margin:0 5px 5px 0;
+}
+
+.title_tab a{
+	color:#FFF;
+}
+
+.photo{
+	margin-left:15px;
+	width:40%;
+	float:left;
+}
+
+.info{
+	float:right;
+	width:57%;
+}
+
+.info p{
+	margin: 0 15px 15px 15px;
+}
+
+.post {
+    border-top: 1px solid #EEEEEE;
+    padding-top: 10px;
+    padding-bottom:0px;
+    margin: 0 15px;
+	/*width: 886px;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+	border-right: 1px solid #EEEEEE;*/
+}
+
+#it{
+	position:relative;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+	#float: right;
+	border-top: 1px solid #EEEEEE;
+    	padding-top: 10px;
+    	padding-bottom:3px;
+	width:100%;
+}
+
+.post_title {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1.5em;
+    font-weight: 500;
+    line-height: 1.2em;
+    margin-bottom: 6px;
+}
+
+.post_comment {
+    font-family: verdana,arial,sans-serif;
+    font-size: 12px;
+    border-top: 0 solid #CCCCCC;
+    color: #777777;
+    line-height: 17px;
+    margin: 4px 0 8px;
+    padding-bottom: 0;
+}
+
+.footer{
+	clear:both;
+	height:50px;
+	padding: 0 0 0 18px;
+}

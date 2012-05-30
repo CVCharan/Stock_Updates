@@ -1,0 +1,14 @@
+This is an application to monitor stock updates.
+In this application, we are monitoring NSE-India, FTSE and stock prices of few Indian IT companies.
+However, the same concept can be applied to monitor stocks of other enlisted companies  and stock markets as well.
+
+To develop this application, we have used:
+1.WebWorkers
+2.HighCharts.js
+3.Yahoo Query Language(YQL)
+
+Challenges faced:
+1) Finding a credible data source on any website/server/api.
+(We have solved this problem using YQL.)
+2) Designing the web workers functioning.
+ 
