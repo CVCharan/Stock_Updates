@@ -11,4 +11,9 @@ Challenges faced:
 1) Finding a credible data source on any website/server/api.
 (We have solved this problem using YQL.)
 2) Designing the web workers functioning.
+
+Caution:
+HighCharts.js is not a free product. No license is required for non-commercial purposes (non-profit organisations,students,
+universities, public schools and non-commercial personal websites,For developing and testing applications using Highcharts, personal usage). 
+However, we do require a license for commercial purposes. 
  
